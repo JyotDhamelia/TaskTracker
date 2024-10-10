@@ -1,5 +1,6 @@
 # TaskTracker
-![Screenshot 2024-09-21 140945](https://github.com/user-attachments/assets/effc6451-736a-47a1-9557-0de627a80c90)
+
+![Annotation 2024-10-10 184628](https://github.com/user-attachments/assets/23f7abf4-ab68-4c37-9f2e-e8e0f25f4912)
 
 # Live Demo
 - https://webtasktracker.vercel.app /  https://task-tracker-jyotdhameliagmailcoms-projects.vercel.app
@@ -16,7 +17,7 @@
 - Delete Task: achieved the goal ? or completed the task ? delete that tasks by just clicking on the delete button and it will delete that task from your account for forever.
 - Logout: after your work is done with this tool just click on logout.
 
-![Screenshot 2024-09-21 141032](https://github.com/user-attachments/assets/de017177-5fb8-4673-9bfd-cd5ca459d489)
+![Annotation 2024-10-10 184652](https://github.com/user-attachments/assets/a635cf16-6b9f-45f8-a02e-76ee7734e465)
 
 # Get Started
 - To get satrted with TaskTracker follow this steps:
