@@ -21,10 +21,26 @@
 # Get Started
 - To get satrted with TaskTracker follow this steps:
  1. Clone the Repository: `https://github.com/JyotDhamelia/TaskTracker.git`
- 2. Navigate to the project directory: `cd TaskTracker`
- 3. Install Dependacies: `npm install`
- 4. Run the website: `npm run dev`
- 5. Open the website in a browser: `http://localhost:5173`
+ 2. Update .env file: `go to your firebase project find the details and update the values in the .env`
+ 3. Navigate to the project directory: `cd TaskTracker`
+ 4. Install Dependacies: `npm install`
+ 5. Run the website: `npm run dev`
+ 6. Open the website in a browser: `http://localhost:5173`
+
+ Note: go to firestore database then click on the Rules tab and notice that your rules are same as described below if not then update that rules.
+
+```js
+// This is sample firestore database roles 
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{userId}/tasks/{taskId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+  }
+}
+```
+
 
 # License
 - This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
