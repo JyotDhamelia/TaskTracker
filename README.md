@@ -24,7 +24,7 @@
  1. Clone the Repository: `https://github.com/JyotDhamelia/TaskTracker.git`
  2. Update .env file: `go to your firebase project find the details and update the values in the .env`
  3. Navigate to the project directory: `cd TaskTracker`
- 4. Install Dependacies: `npm install`
+ 4. Install Dependencies: `npm install`
  5. Run the website: `npm run dev`
  6. Open the website in a browser: `http://localhost:5173`
 
